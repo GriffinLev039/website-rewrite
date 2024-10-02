@@ -92,6 +92,8 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    width: 95%;
+    padding: 5%;
 }
 
 .listItem {
@@ -99,4 +101,22 @@
     width: 90%;
     background-color:black;
     margin-top: 3%;
+}
+
+/*
+Below is the CSS for the project repo.
+Class for each element: item
+*/
+.item {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    background-color: red;
+    width: 80%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.desc{
+    transition: all ease-in-out 5s;
 }
